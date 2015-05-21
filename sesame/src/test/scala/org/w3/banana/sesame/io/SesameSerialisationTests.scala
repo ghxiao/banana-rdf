@@ -3,7 +3,7 @@ package org.w3.banana.sesame.io
 import org.w3.banana.io._
 import org.w3.banana.sesame._
 import scala.util.Try
-import org.w3.banana.util.tryInstances._
+import org.w3.banana.util.TryInstances._
 
 class SesameTurtleTests extends TurtleTestSuite[Sesame, Try]
 
