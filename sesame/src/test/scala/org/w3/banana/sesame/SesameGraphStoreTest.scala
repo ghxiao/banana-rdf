@@ -5,7 +5,7 @@ import org.openrdf.repository.sail.SailRepository
 import org.openrdf.sail.memory.MemoryStore
 import org.w3.banana._
 import org.w3.banana.sesame.Sesame._
-import org.w3.banana.util.tryInstances._
+import org.w3.banana.util.TryInstances._
 import scala.util.Try
 
 

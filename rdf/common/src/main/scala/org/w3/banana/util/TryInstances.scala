@@ -17,4 +17,4 @@ trait TryInstances {
 
 }
 
-object tryInstances extends TryInstances
+object TryInstances extends TryInstances

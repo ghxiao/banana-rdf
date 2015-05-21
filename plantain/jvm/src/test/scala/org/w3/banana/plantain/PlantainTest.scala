@@ -4,7 +4,7 @@ import org.w3.banana._
 import org.w3.banana.io._
 import org.w3.banana.isomorphism._
 import scala.util.Try
-import org.w3.banana.util.tryInstances._
+import org.w3.banana.util.TryInstances._
 
 class PlantainTurtleTest extends TurtleTestSuite[Plantain, Try]
 

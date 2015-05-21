@@ -4,7 +4,7 @@ import com.hp.hpl.jena.query.{ Dataset, DatasetFactory }
 import com.hp.hpl.jena.tdb.{ TDB, TDBFactory }
 import org.w3.banana._
 import org.w3.banana.jena.Jena._
-import org.w3.banana.util.tryInstances._
+import org.w3.banana.util.TryInstances._
 
 import scala.util.Try
 
