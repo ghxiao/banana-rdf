@@ -2,7 +2,7 @@ package org.w3.banana.jena
 
 import org.w3.banana.io.{NTriplesReaderTestSuite, RdfXMLTestSuite, TurtleTestSuite}
 import scala.util.Try
-import org.w3.banana.util.tryInstances._
+import org.w3.banana.util.TryInstances._
 
 class JenaTurtleTest extends TurtleTestSuite[Jena, Try]
 

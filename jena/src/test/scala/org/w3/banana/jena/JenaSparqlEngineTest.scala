@@ -3,7 +3,7 @@ package org.w3.banana.jena
 import com.hp.hpl.jena.query.DatasetFactory
 import org.w3.banana._
 import org.w3.banana.jena.Jena._
-import org.w3.banana.util.tryInstances._
+import org.w3.banana.util.TryInstances._
 
 
 class JenaSparqlEngineTest extends SparqlEngineTest({
